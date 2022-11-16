@@ -3,6 +3,6 @@
     path: /etc/nginx/sites-enabled/{{ item["name"] }}.conf
     state: absent
   with_items:
-    - "{{borrado}}"
+    - "{{delete-vh}}"
   notify: restart nginx
 
