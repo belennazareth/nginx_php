@@ -1,0 +1,5 @@
+- name: Install php                  
+  apt:
+    pkg:
+      - php
+      - php-fpm

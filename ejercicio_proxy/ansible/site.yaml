@@ -1,0 +1,11 @@
+- hosts: all
+  become: true
+  roles:
+   - role: commons
+
+- hosts: servidorweb
+  become: true
+  roles:
+   - role: nginx
+   - role: php
+   - role: delete-vh

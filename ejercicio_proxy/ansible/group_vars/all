@@ -1,0 +1,16 @@
+# apache2
+virtualhosts:
+  - name: vhost1
+    datos:
+      nameserver: www.pagina1.org
+      documentroot: /srv/www/pagina1
+      errorlog: error_pagina1
+      accesslog: access_pagina1
+  - name: vhost2
+    datos:
+      nameserver: www.pagina2.org
+      documentroot: /srv/www/pagina2
+      errorlog: error_pagina2
+      accesslog: access_pagina2
+
+
