@@ -14,4 +14,4 @@ virtualhosts:
       accesslog: access_pagina2
 
 deletevh: 
-  - name: pagina2
+  - name: vhost2
